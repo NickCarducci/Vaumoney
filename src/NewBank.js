@@ -1463,7 +1463,7 @@ class NewBank extends React.Component {
                 {this.props.businessCodes && (
                   <div>
                     <select name="bizclass" id="bizclass">
-                      {classes.map(x => {
+                      {this.props.businessCodes.map(x => {
                         return <option value={x.name}>{x.name}</option>;
                       })}
                     </select>
