@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  cursor: pointer;
+  user-select: none;
+}
+.input::placeholder {
+  display: flex;
+  color: grey;
+  z-index: 9999;
+}
