@@ -35,7 +35,7 @@ class Cash extends React.Component {
     this.setState({ loading: true });
     const client_id = "OrFxbaqmtJzKhZVlWAM58yc4GZkXKYHFtLwpm5DG426IREJffi";
     const client_secret = "PutLuNs2sksYmOiSdwldnUcjCPlD2UgQX7PCzhALbBTrZOmgId";
-    const scopes = "Send Funding Transactions ManageCustomers";
+    //const scopes = "Send Funding Transactions ManageCustomers";
     //https://cors-anywhere.herokuapp.com/
     await fetch(
       `https://cors-anywhere.herokuapp.com/https://api-sandbox.dwolla.com/token`,
